@@ -1,0 +1,7 @@
+CREATE TABLE `live_data` (
+  `reg_num` varchar(255) NOT NULL,
+  `user_name` varchar(45) NOT NULL,
+  `sys_num` varchar(50) NOT NULL,
+  `date_time` varchar(255) NOT NULL,
+  PRIMARY KEY (`reg_num`,`user_name`,`sys_num`,`date_time`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;

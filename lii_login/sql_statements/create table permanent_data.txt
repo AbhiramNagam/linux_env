@@ -1,0 +1,9 @@
+CREATE TABLE `permanent_data` (
+  `reg_num` varchar(50) NOT NULL,
+  `user_name` varchar(250) NOT NULL,
+  `sys_num` int NOT NULL,
+  `in_time` varchar(45) NOT NULL,
+  `out_time` varchar(45) NOT NULL,
+  `date` varchar(45) NOT NULL,
+  PRIMARY KEY (`reg_num`,`user_name`,`sys_num`,`in_time`,`out_time`,`date`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
