@@ -40,7 +40,7 @@
 		<?php
 		$servername="localhost";
 		$username="root";
-		$password="arcH";
+		$password="ar_lol5%";
 		$dbname="lii";
 		$conn=mysqli_connect($servername,$username,$password,$dbname);
 // Check connection

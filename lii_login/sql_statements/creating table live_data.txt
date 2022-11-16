@@ -1,3 +1,5 @@
+create database lii;
+use lii;
 CREATE TABLE `live_data` (
   `reg_num` varchar(255) NOT NULL,
   `user_name` varchar(45) NOT NULL,
