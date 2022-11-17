@@ -1,3 +1,10 @@
 .show_data{
-	margin: 20px 20px 0 25em;
+	/* margin: 20px 20px 0 25em; */
+	margin: 0 auto;
+}
+body{
+	background-color: powderblue;
+}
+input{
+	margin-top: 5px;
 }

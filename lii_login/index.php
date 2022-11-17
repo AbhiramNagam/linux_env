@@ -15,13 +15,13 @@
 	<form method="post" action="connector.php">
 		<h1>LOGIN</h1>
 		<label for ="reg_input">Registered Number</label>
-		<input autocomplete="off" type="text" name="reg_input">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input autocomplete="off" type="text" name="reg_input" autofocus required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 		<label for ="user_name">Name&nbsp;</label>
-		<input autocomplete="off" type="text" name="user_name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input autocomplete="off" type="text" name="user_name" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		
 		<label for = "sys_num">System Number</label>
-		<input autocomplete="off" type="number" name="sys_num">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input autocomplete="off" type="number" name="sys_num" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		
 		<button type="submit" name="submit">login</button>
 	</form>
@@ -31,9 +31,10 @@
 
 		<h1>LOGOUT</h1>
 		<label for ="reg_input">Registered Number</label>
-		<input autocomplete="off" type="text" name="reg_input">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input autocomplete="off" type="text" name="reg_input" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		<button type="submit" name="submit">logout</button>
 		<hr>
+		<br>
 	</form>
 	</div>
 	<div class="show_data">
